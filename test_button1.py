@@ -57,8 +57,8 @@ def camera_up():
 
     print(" After camera up     Offset':-  ", offset, "  full res  :- ",  full_res , "  Size  :- ", size)   
         
-def cameraTest_up():
-    size = camera.capture_metadata()['ScalerCrop'][2:0]
+# def cameraTest_up():
+#     size = camera.capture_metadata()['ScalerCrop'][2:0]
 
 
 def camera_down():
